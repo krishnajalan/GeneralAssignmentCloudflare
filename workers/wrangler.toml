@@ -1,0 +1,12 @@
+name = "general-assignment"
+type = "webpack"
+
+account_id = "8ef885d63b1ea6a0c0a8eaaca089f287"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-11-06"
+kv_namespaces = [
+
+        { binding = "db1", id = "beb503cb10564d61b825ff975e670657" , "title"="general_db"}
+]

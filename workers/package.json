@@ -1,0 +1,23 @@
+{
+    "name": "my-app",
+    "private": true,
+    "version": "1.0.0",
+    "description": "package for creating workers templates",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Krishna Jalan <krishnajalan2001@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "itty-router": "^2.1.9",
+        "jsonwebtoken": "^8.5.1",
+        "serverless-cloudflare-workers": "^1.2.0",
+        "uuid": "^8.3.2"
+    }
+}
