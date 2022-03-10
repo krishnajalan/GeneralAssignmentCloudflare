@@ -12,7 +12,6 @@ export const signin = (fromData, history) => async dispatch => {
     }
 }
 
-
 export const signup = (fromData, history) => async dispatch => {
     try{
         // login

@@ -7,6 +7,32 @@ export default makeStyles({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     backgroundBlendMode: 'darken',
   },
+  modal: {
+    width: '80vw',
+    height: '80vh',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: "auto",
+  },
+  close: {
+    zIndex: 100,
+    backgroundColor: 'blue',
+    alignSelf: 'flex-end',
+    color: 'white',
+  },
+  play: {
+    height: 100,
+    width: 100,
+    position: 'relative',
+    top: -120,
+    left: "35%"
+  },
+  video: {
+    width: '100%',
+    height: '100%',
+  },
   border: {
     border: 'solid',
   },

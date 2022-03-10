@@ -6,11 +6,6 @@ const API = axios.create({
   // headers: {"Access-Control-Allow-Origin": "*"},
 });
 
-export const signup = async (formData) =>
-  await API.post("https://my-app.krishnajalan.workers.dev/signup", formData);
-export const signin = async (formData) =>
-  await API.post("https://my-app.krishnajalan.workers.dev/signin", formData);
-
 export const fetchPosts = async () => await API.get(url);
 
 export const createPost = async (newPost) => await API.post(url, newPost); // .then(response => response).catch(error => console.log(error => console.log(error.message)));
