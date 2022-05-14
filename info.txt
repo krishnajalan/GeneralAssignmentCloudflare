@@ -1,6 +1,0 @@
-Git Credentials:
-Username: XCrIIEZMmPEkwNQiBFcBe1fUHPqqRpDztq41
-Password: vdzgjH7b
-
-Workers URL: https://general-assignment.krishnajalan.workers.dev/
-Pages URL: https://generalassignmentcloudflare.pages.dev/
